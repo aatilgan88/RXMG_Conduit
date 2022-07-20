@@ -5,7 +5,6 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import pages.ConduitFeedAndPostPage;
 import utilities.Driver;
 
@@ -28,8 +27,8 @@ public class ConduitFeedAndPostSteps {
     public void user_sends_in_the_article_as(String string) {
         conduitFeedAndPostPage.typeArticle.sendKeys(string);
     }
-    @Then("user clicks on publish article button and verify the title as {string}")
-    public void user_clicks_on_publish_article_button_and_verify_the_title_as(String string) {
+    @Then("user clicks on publish article button and verify the title")
+    public void user_clicks_on_publish_article_button_and_verify_the_title_as() {
         conduitFeedAndPostPage.publichArticleBtn.click();
     }
 

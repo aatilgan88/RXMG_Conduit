@@ -16,7 +16,7 @@ Feature: Conduit Feed and Post Page
       Then user send in article title as "Automation"
       And user send in the topic as "Cypress"
       And user sends in the article as "It is a useful tool"
-      Then user clicks on publish article button and verify the title as "Automation"
+      Then user clicks on publish article button and verify the title
 
       Scenario: ensure posts display correctly on feed
         Given user clicks on home button

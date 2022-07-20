@@ -24,7 +24,4 @@ public class LogInPage {
 
     @FindBy(xpath = "(//input[@class='form-control form-control-lg'])[2]")
     public WebElement password;
-
-
-
 }
